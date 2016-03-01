@@ -109,6 +109,16 @@ fabric.properties
 # sftp configuration file
 sftp-config.json
 
+Server/.idea/.name
+Server/.idea/compiler.xml
+Server/.idea/copyright/
+Server/.idea/encodings.xml
+Server/.idea/libraries/
+Server/.idea/misc.xml
+Server/.idea/modules.xml
+Server/.idea/workspace.xml
+Server/Server.iml
+Server/.idea/vcs.xml
 
 ### NetBeans ###
 nbproject/private/
