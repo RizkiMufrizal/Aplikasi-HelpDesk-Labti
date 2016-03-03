@@ -16,7 +16,6 @@ open class WebConfiguration : WebMvcConfigurerAdapter() {
 
     override fun addViewControllers(viewControllerRegistry: ViewControllerRegistry) {
         viewControllerRegistry.addViewController("/").setViewName("index")
-        viewControllerRegistry.addViewController("/login").setViewName("login")
     }
 
 }

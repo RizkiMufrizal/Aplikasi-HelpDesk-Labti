@@ -4,9 +4,9 @@ import com.rizki.mufrizal.aplikasi.helpdesk.labti.service.UserService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
+import org.springframework.security.authentication.AuthenticationManager
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity
-import org.springframework.security.config.annotation.web.builders.HttpSecurity
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder
@@ -39,24 +39,10 @@ open class WebSecurityConfiguration : WebSecurityConfigurerAdapter() {
                 .passwordEncoder(passwordEncoder())
     }
 
+    @Bean
     @Throws(Exception::class)
-    override fun configure(httpSecurity: HttpSecurity) {
-        httpSecurity.
-                authorizeRequests()
-                .antMatchers("/").permitAll()
-                .anyRequest().authenticated()
-                .and()
-                .formLogin()
-                .loginPage("/login").permitAll()
-                .defaultSuccessUrl("/home")
-                .and()
-                .logout().permitAll()
-                .deleteCookies("JSESSIONID")
-                .and()
-                .exceptionHandling()
-                .accessDeniedPage("/403")
-                .and()
-                .csrf().disable()
+    override fun authenticationManagerBean(): AuthenticationManager {
+        return super.authenticationManagerBean()
     }
 
 }
