@@ -14,7 +14,7 @@ import org.springframework.security.access.prepost.PreAuthorize
  * @Package com.rizki.mufrizal.aplikasi.helpdesk.labti.repository
  */
 
-@PreAuthorize("hasRole('ROLE_ADMIN')")
+@PreAuthorize("hasRole('ROLE_USER')")
 @RepositoryRestResource(collectionResourceRel = "user", path = "user")
 interface UserRepository : PagingAndSortingRepository<User, String> {
 
