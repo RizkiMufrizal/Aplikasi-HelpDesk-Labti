@@ -38,9 +38,9 @@ class Problem : Serializable {
     @Column(name = "deskripsi")
     var deskripsi: String? = null
 
-    @Column(name = "status")
+    @Column(name = "status", length = 10)
     @Enumerated(EnumType.STRING)
-    var status: Status? = null
+    var status: Status = Status.belum
 
     @Column(name = "tanggalProblem")
     @Temporal(TemporalType.TIMESTAMP)
