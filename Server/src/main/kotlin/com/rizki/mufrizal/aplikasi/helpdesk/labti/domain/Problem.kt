@@ -2,7 +2,7 @@ package com.rizki.mufrizal.aplikasi.helpdesk.labti.domain
 
 import org.hibernate.annotations.GenericGenerator
 import java.io.Serializable
-import java.util.*
+import java.util.Date
 import javax.persistence.Column
 import javax.persistence.Entity
 import javax.persistence.EnumType

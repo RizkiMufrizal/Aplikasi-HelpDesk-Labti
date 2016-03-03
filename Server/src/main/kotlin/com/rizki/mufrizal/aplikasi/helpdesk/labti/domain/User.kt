@@ -1,7 +1,7 @@
 package com.rizki.mufrizal.aplikasi.helpdesk.labti.domain
 
 import java.io.Serializable
-import java.util.*
+import java.util.HashSet
 import javax.persistence.CascadeType
 import javax.persistence.Column
 import javax.persistence.Entity
