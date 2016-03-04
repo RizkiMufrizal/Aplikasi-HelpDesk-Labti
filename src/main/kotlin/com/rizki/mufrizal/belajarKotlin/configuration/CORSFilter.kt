@@ -1,4 +1,4 @@
-package com.rizki.mufrizal.aplikasi.helpdesk.labti.configuration
+package com.rizki.mufrizal.belajarKotlin.configuration
 
 import org.springframework.stereotype.Component
 import java.io.IOException

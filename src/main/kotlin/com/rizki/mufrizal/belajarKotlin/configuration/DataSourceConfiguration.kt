@@ -1,4 +1,4 @@
-package com.rizki.mufrizal.aplikasi.helpdesk.labti.configuration
+package com.rizki.mufrizal.belajarKotlin.configuration
 
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource

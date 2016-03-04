@@ -1,4 +1,4 @@
-package com.rizki.mufrizal.aplikasi.helpdesk.labti.domain
+package com.rizki.mufrizal.belajarKotlin.domain
 
 import java.io.Serializable
 import java.util.HashSet

@@ -1,7 +1,7 @@
-package com.rizki.mufrizal.aplikasi.helpdesk.labti.repository.eventHandler
+package com.rizki.mufrizal.belajarKotlin.repository.eventHandler
 
-import com.rizki.mufrizal.aplikasi.helpdesk.labti.domain.User
-import com.rizki.mufrizal.aplikasi.helpdesk.labti.domain.UserRole
+import com.rizki.mufrizal.belajarKotlin.domain.User
+import com.rizki.mufrizal.belajarKotlin.domain.UserRole
 import org.springframework.data.rest.core.annotation.HandleBeforeCreate
 import org.springframework.data.rest.core.annotation.RepositoryEventHandler
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder

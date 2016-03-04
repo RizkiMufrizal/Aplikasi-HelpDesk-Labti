@@ -1,6 +1,6 @@
-package com.rizki.mufrizal.aplikasi.helpdesk.labti.repository
+package com.rizki.mufrizal.belajarKotlin.repository
 
-import com.rizki.mufrizal.aplikasi.helpdesk.labti.domain.User
+import com.rizki.mufrizal.belajarKotlin.domain.User
 import org.springframework.data.jpa.repository.Query
 import org.springframework.data.repository.PagingAndSortingRepository
 import org.springframework.data.repository.query.Param

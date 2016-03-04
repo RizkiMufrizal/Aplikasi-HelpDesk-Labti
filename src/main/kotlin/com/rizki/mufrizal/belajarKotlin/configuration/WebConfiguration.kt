@@ -1,4 +1,4 @@
-package com.rizki.mufrizal.aplikasi.helpdesk.labti.configuration
+package com.rizki.mufrizal.belajarKotlin.configuration
 
 import org.springframework.context.annotation.Configuration
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry

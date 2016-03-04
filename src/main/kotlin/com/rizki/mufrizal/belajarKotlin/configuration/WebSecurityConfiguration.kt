@@ -1,6 +1,6 @@
-package com.rizki.mufrizal.aplikasi.helpdesk.labti.configuration
+package com.rizki.mufrizal.belajarKotlin.configuration
 
-import com.rizki.mufrizal.aplikasi.helpdesk.labti.service.UserService
+import com.rizki.mufrizal.belajarKotlin.service.UserService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

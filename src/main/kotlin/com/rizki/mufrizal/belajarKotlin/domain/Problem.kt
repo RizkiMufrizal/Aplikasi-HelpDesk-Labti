@@ -1,4 +1,4 @@
-package com.rizki.mufrizal.aplikasi.helpdesk.labti.domain
+package com.rizki.mufrizal.belajarKotlin.domain
 
 import org.hibernate.annotations.GenericGenerator
 import java.io.Serializable

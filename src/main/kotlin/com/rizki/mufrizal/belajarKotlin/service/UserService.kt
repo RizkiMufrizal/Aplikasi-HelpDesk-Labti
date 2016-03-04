@@ -1,7 +1,7 @@
-package com.rizki.mufrizal.aplikasi.helpdesk.labti.service
+package com.rizki.mufrizal.belajarKotlin.service
 
-import com.rizki.mufrizal.aplikasi.helpdesk.labti.domain.UserRole
-import com.rizki.mufrizal.aplikasi.helpdesk.labti.repository.UserRepository
+import com.rizki.mufrizal.belajarKotlin.domain.UserRole
+import com.rizki.mufrizal.belajarKotlin.repository.UserRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.security.core.GrantedAuthority
 import org.springframework.security.core.authority.SimpleGrantedAuthority
@@ -39,7 +39,7 @@ class UserService : UserDetailsService {
 
     }
 
-    private fun buildUserForAuthentication(user: com.rizki.mufrizal.aplikasi.helpdesk.labti.domain.User, grantedAuthorities: List<GrantedAuthority>): User {
+    private fun buildUserForAuthentication(user: com.rizki.mufrizal.belajarKotlin.domain.User, grantedAuthorities: List<GrantedAuthority>): User {
         return User(user.email, user.password, user.enable, true, true, true, grantedAuthorities)
     }
 

@@ -1,4 +1,4 @@
-package com.rizki.mufrizal.aplikasi.helpdesk.labti.domain
+package com.rizki.mufrizal.belajarKotlin.domain
 
 /**
  * @Author Rizki Mufrizal <mufrizalrizki@gmail.com>
